@@ -13,6 +13,6 @@
 "scripts": {
   "ci": "yarn install && yarn build",
   "build": "tsc",
-  "start": "node dist/index.js"
+  "start": "node dist/db.js"
 }
 }
