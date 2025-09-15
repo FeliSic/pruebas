@@ -1,0 +1,13 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.15.4"
+  },
+  "scripts": {
+    "ci": "yarn install && yarn build",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  }
+}
